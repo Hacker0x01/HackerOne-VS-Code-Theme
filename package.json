@@ -1,0 +1,26 @@
+{
+  "name": "hackerone",
+  "displayName": "hackerone",
+  "description": "A HackerOne-branded Visual Studio Code theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.68.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "HackerOne",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hackerone-color-theme.json"
+      },
+      {
+        "label": "HackerOne Light",
+        "uiTheme": "vs",
+        "path": "./themes/hackerone-light-color-theme.json"
+      }
+    ]
+  }
+}
