@@ -1,18 +1,47 @@
 {
-  "name": "hackerone",
-  "displayName": "hackerone",
-  "description": "A HackerOne-branded Visual Studio Code theme",
-  "version": "0.0.1",
+  "name": "HackerOne-VS-Code-Theme",
+  "displayName": "HackerOne",
+  "description": "A HackerOne theme for VS Code",
+  "version": "1.00.0",
+  "publisher": "Hacker0x01",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hacker0x01/HackerOne-VS-Code-Theme"
+  },
+  "bugs": {
+    "url": "https://github.com/Hacker0x01/HackerOne-VS-Code-Theme/issues",
+    "email": "support@hackerone.com"
+  },
+  "homepage": "https://hackerone.com",
+  "icon": "images/h1-logo.jpg",
+  "galleryBanner": {
+    "color": "#000",
+    "theme": "dark"
+  },
   "engines": {
-    "vscode": "^1.68.0"
+    "vscode": "^1.70.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "hackerone",
+    "hacker0x01",
+    "hacker",
+    "hacking",
+    "hack",
+    "light",
+    "dark",
+    "theme",
+    "color theme"
+  ],
+  "contributors": [
+    "Brandon Morgan"
+  ],
   "contributes": {
     "themes": [
       {
-        "label": "HackerOne",
+        "label": "HackerOne Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/hackerone-color-theme.json"
       },
