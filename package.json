@@ -4,6 +4,8 @@
   "description": "A HackerOne theme for VS Code",
   "version": "1.00.0",
   "publisher": "Hacker0x01",
+  "homepage": "https://hackerone.com",
+  "icon": "images/h1-logo.jpg",
   "repository": {
     "type": "git",
     "url": "https://github.com/Hacker0x01/HackerOne-VS-Code-Theme"
@@ -12,12 +14,11 @@
     "url": "https://github.com/Hacker0x01/HackerOne-VS-Code-Theme/issues",
     "email": "support@hackerone.com"
   },
-  "homepage": "https://hackerone.com",
-  "icon": "images/h1-logo.jpg",
   "galleryBanner": {
     "color": "#000",
     "theme": "dark"
   },
+  "license": "MIT",
   "engines": {
     "vscode": "^1.70.0"
   },
